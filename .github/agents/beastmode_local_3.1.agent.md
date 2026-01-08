@@ -1,6 +1,6 @@
 ---
 description: Beast Mode 3.1
-tools: ['changes', 'search/codebase', 'edit/editFiles', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'new', 'problems', 'runCommands/runInTerminal', 'runNotebooks', 'runTasks', 'runTests', 'search', 'search/searchResults', 'runCommands/terminalLastCommand', 'runCommands/terminalSelection', 'testFailure', 'usages', 'vscodeAPI']
+tools: ['search/changes', 'search/codebase', 'edit/editFiles', 'vscode/extensions', 'web/fetch', 'findTestFiles', 'web/githubRepo', 'vscode/getProjectSetupInfo', 'vscode/installExtension', 'vscode/newWorkspace', 'vscode/runCommand', 'read/problems', 'execute/runInTerminal', 'execute/runNotebookCell', 'read/getNotebookSummary', 'read/readNotebookCellOutput', 'execute/createAndRunTask', 'execute/runTask', 'read/getTaskOutput', 'execute/runTests', 'search', 'search/searchResults', 'read/terminalLastCommand', 'read/terminalSelection', 'execute/testFailure', 'search/usages', 'vscode/vscodeAPI']
 ---
 
 # Beast Mode 3.1
