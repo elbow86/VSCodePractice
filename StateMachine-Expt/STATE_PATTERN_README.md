@@ -69,6 +69,37 @@ python state_pattern_example.py
 python traffic_light_state.py
 ```
 
+## UI Visualizers (Tkinter)
+
+This folder also includes optional Tkinter UI scripts that visualize the state machines without modifying the core examples.
+
+### Run the Traffic Light Visualizer (step through states)
+
+From the repo root:
+```bash
+python StateMachine-Expt/ui/traffic_light_visualizer.py
+```
+
+Or from inside the `StateMachine-Expt` folder:
+```bash
+python ui/traffic_light_visualizer.py
+```
+
+### Run the Vending Machine Visualizer
+
+From the repo root:
+```bash
+python StateMachine-Expt/ui/vending_machine_visualizer.py
+```
+
+Or from inside the `StateMachine-Expt` folder:
+```bash
+python ui/vending_machine_visualizer.py
+```
+
+### Notes
+- Tkinter typically ships with standard Python on Windows. If you see an import error for `tkinter`, your Python install may be missing Tcl/Tk.
+
 ## Benefits of the State Pattern
 
 1. **Eliminates Complex Conditionals** - Replaces large if/else or switch statements with polymorphism
